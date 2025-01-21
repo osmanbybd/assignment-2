@@ -41,6 +41,14 @@ body{
 #bg-color2{
     background-color: rgb(17, 17, 17);
 }
+#bg-color-3{
+    background-color: rgb(17, 17, 17);
+    
+}
+.view{
+    text-align: center;
+    padding: 20px;
+}
 
 #read-more-1{
     color: rgb(100, 200, 255);
@@ -554,6 +562,11 @@ footer{
         color: rgb(255, 255, 255);
         justify-content: flex-start;
     }
+    #bg-color-3{
+        display: block;
+        
+    }
+   
 
 
 }
@@ -687,6 +700,10 @@ footer{
         font-weight: 700;
         color: rgb(255, 255, 255);
         justify-content: flex-start;
+    }
+    #bg-color-3{
+        display: block;
+        text-align: center;
     }
 
 
