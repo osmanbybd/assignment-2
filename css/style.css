@@ -29,50 +29,9 @@ body{
     font-size: 1.3rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    
     border-radius: 12px;
     border: none;
     padding: 10px 40px;
-}
-
-#bg-color1{
-    background-color: rgb(254, 163, 1);
-}
-#bg-color2{
-    background-color: rgb(17, 17, 17);
-}
-#bg-color-3{
-    background-color: rgb(17, 17, 17);
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    border-radius: 12px;
-    border: none;
-    padding: 10px 40px;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    
-    border-radius: 12px;
-    border: none;
-    padding: 10px 40px;
-}
-.view{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-#read-more-1{
-    color: rgb(100, 200, 255);
-}
-#read-more-2{
-    color: rgb(240, 170, 0);
-}
-#read-more-3{
-    color: rgb(135, 0, 255);
 }
 
 section{
@@ -147,33 +106,10 @@ nav{
     color: rgb(93, 88, 239);
     font-weight: 500;
 }
-/* ay code sudu boro howar karone figma theke copy kore ana hoyece */
 
-#curriculam-box-1{
-    box-sizing: border-box;
-    border: 0.94px solid rgb(222, 245, 255);
-    border-radius: 18.86px;
-    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+#bg-color1{
+    background-color: rgb(254, 163, 1);
 }
-
-#curriculam-box-2{
-    box-sizing: border-box;
-    border: 0.94px solid rgb(255, 244, 220);
-    border-radius: 18.86px;
-    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-}
-
-#curriculam-box-3{
-    box-sizing: border-box;
-    border: 0.94px solid rgb(242, 232, 255);
-    border-radius: 18.86px;
-    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-}
-
-
 
 
 /* banner section */
@@ -212,6 +148,9 @@ nav{
     margin-bottom: 1.6rem;
     
 }
+#bg-color2{
+    background-color: rgb(17, 17, 17);
+}
  
 /* main section */
  
@@ -221,6 +160,8 @@ main{
     
     /* height: 600px; */
 }
+
+/* curriculam section */
 
 .curriculam{
     display: grid;
@@ -285,6 +226,44 @@ main{
     font-weight: 900;
     
 }
+#read-more-1{
+    color: rgb(100, 200, 255);
+}
+#read-more-2{
+    color: rgb(240, 170, 0);
+}
+#read-more-3{
+    color: rgb(135, 0, 255);
+}
+
+/* ay code sudu boro howar karone figma theke copy kore ana hoyece */
+
+#curriculam-box-1{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#curriculam-box-2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#curriculam-box-3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+/* our storis section */
+
 .storis-title{
     font-size: 2.8rem;
     font-weight: 700;
@@ -359,6 +338,23 @@ main{
     padding: 20px;
 }
 
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#bg-color-3{
+    background-color: rgb(17, 17, 17);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: none;
+    padding: 10px 40px;
+}
+
 #mini-bar2{
     background-color: rgb(149, 178, 38);
 }
@@ -374,7 +370,10 @@ main{
 
 
 
+
 /* footer section */
+
+
 footer{
     background-color: rgb(1, 172, 253);
     height: 420px;
@@ -438,6 +437,7 @@ footer{
 
 
 
+/* marquee  */
 
 .marquee p{
     font-size: 1.2rem;
@@ -473,6 +473,12 @@ footer{
         border-bottom: 2px solid rgb(254, 163, 1);
         
     }
+
+
+
+    /* banner section */
+
+
     .banner-container{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -517,6 +523,13 @@ footer{
     .icone-bar{
         display: none;
     }
+
+
+
+    /* our storis */
+
+
+
     .combo-box{
         /* display: grid; */
         grid-template-columns: repeat(1, 1fr);
@@ -555,6 +568,26 @@ footer{
         align-items: center;
         padding: 10px;
     }
+    .mini-bar{
+        font-size: 0.50rem;
+        font-weight: 400;
+        font-family: Raleway;
+        color: rgb(255, 255, 255);
+        padding: 5px 8px;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(60, 216, 232);
+        position: relative;
+        left: 19px;
+        top: -18px;
+    
+    }
+
+
+
+    /* footer section */
+
+
     footer{
         background-color: rgb(1, 172, 253);
         height: 530px;
@@ -586,29 +619,16 @@ footer{
         color: rgb(255, 255, 255);
         justify-content: flex-start;
     }
-    #bg-color-3{
+    /* #bg-color-3{
         display: block;
     
     }
     .view{
         text-align: center;
         padding: 20px;
-    }
+    } */
 
-    .mini-bar{
-        font-size: 0.50rem;
-        font-weight: 400;
-        font-family: Raleway;
-        color: rgb(255, 255, 255);
-        padding: 5px 8px;
-        border: none;
-        border-radius: 50px;
-        background-color: rgb(60, 216, 232);
-        position: relative;
-        left: 19px;
-        top: -18px;
-    
-    }
+  
    
 
 
@@ -632,6 +652,10 @@ footer{
         gap: 10px;
         align-items: center;
     }
+
+
+    /* banner section */
+
     .banner-container{
         grid-template-columns: repeat(1, 1fr);
         /* justify-items: center; */
@@ -667,6 +691,10 @@ footer{
         text-align: center;
         order: 1;
     }
+
+
+    /* curriculam section */
+
     .curriculam{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -683,6 +711,10 @@ footer{
     .icone-bar{
         display: none;
     }
+
+
+    /* our section */
+
     .combo-box{
         /* display: grid; */
         grid-template-columns: repeat(1, 1fr);
@@ -719,6 +751,9 @@ footer{
         align-items: center;
         padding: 10px;
     }
+
+    /* footer section */
+
     footer{
         background-color: rgb(1, 172, 253);
         height: 530px;
@@ -750,10 +785,10 @@ footer{
         color: rgb(255, 255, 255);
         justify-content: flex-start;
     }
-    #bg-color-3{
+    /* #bg-color-3{
         display: block;
         text-align: center;
-    }
+    } */
   
 
 
