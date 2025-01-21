@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -7,8 +8,8 @@
     font-family: "Quicksand", serif;
 }
 body{
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 100%;
+    /* margin: 0 auto; */
     background-color: rgb(247, 247, 247);
 }
 
@@ -50,9 +51,30 @@ body{
 #read-more-3{
     color: rgb(135, 0, 255);
 }
+
+section{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.mini-bar{
+    font-size: 0.80rem;
+    font-weight: 500;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(60, 216, 232);
+    position: relative;
+    left: 38px;
+    top: -22px;
+
+}
 /* header style */
 
 header{
+    max-width: 80%;
+    margin: 0 auto;
     padding: 1.2rem;
 }
 
@@ -171,8 +193,10 @@ nav{
 /* main section */
  
 main{
-    background-image: url(../assets/bg.png);
-    height: 600px;
+    /* background-image: url(../assets/bg.png); */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 40%);
+    
+    /* height: 600px; */
 }
 
 .curriculam{
@@ -211,6 +235,7 @@ main{
 
 .curriculam-description{
     font-size: 0.89rem;
+    color: rgb(128, 128, 128);
     font-weight: 500;
     margin-top: 2rem;
     line-height: 1.8rem;
@@ -237,6 +262,100 @@ main{
     font-weight: 900;
     
 }
+.storis-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px 0;
+}
+.trainer{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 30px;
+
+    align-items: center;
+}
+.trainer h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.trainer p{
+    font-size: 15px;
+    font-weight: 500;
+    
+    color: rgb(102, 102, 102);
+}
+.combo-box{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   align-items: center;
+}
+.combo-box-left{
+    max-width: 540px;
+    border-radius: 0 0 16px 16px;
+    background-color: rgb(255, 255, 255);
+    /* margin-bottom: 50px; */
+    
+   
+    
+}
+
+.combo-box-left img{
+    /* position: absolute; */
+    border-radius: 16px 16px 0 0;
+}
+
+.combo-box-right{
+    max-width:600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.combo-double img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.combo-double{
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    max-width: 300px;
+    
+
+}
+.combo-double h4{
+    font-size: 0.86rem;
+    font-weight: 700;
+    align-items: center;
+    padding: 20px;
+}
+
+#mini-bar2{
+    background-color: rgb(149, 178, 38);
+}
+#mini-bar3{
+    background-color: rgb(93, 88, 240);
+}
+#mini-bar4{
+    background-color: #222064;
+}
+#mini-bar5{
+    background-color: #c0924e;
+}
+
+
+
+/* footer section */
+
+
+
+
+
+
+
 
 
 
@@ -255,7 +374,7 @@ main{
     }
     .banner-container{
         grid-template-columns: repeat(1, 1fr);
-        /* justify-items: center; */
+        justify-items: center;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -294,9 +413,41 @@ main{
         gap: 10px;
     }
 
-    .icon{
+    .icone-bar{
         display: none;
     }
+
+    .combo-box-left{
+        display: none;
+    }
+   
+     .combo-box-right{
+       max-width:600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items:center;
+        gap:5px;
+    }
+    .combo-double{
+        background-color: rgb(255, 255, 255);
+        border-radius: 9px;
+        justify-items: center;
+        align-items: center;
+        min-width: 200px;
+        /* gap: 20px; */
+    }
+    .combo-double img{
+        border-radius: 9px 9px 0 0;
+        max-width: 100%;
+    }
+    .combo-double h4{
+        font-size: 0.6rem;
+        font-weight: 600;
+        align-items: center;
+        padding: 10px;
+    }
+
 
 }
 
@@ -352,13 +503,49 @@ main{
     .curriculam{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* justify-items: center; */
-        place-items: center;
-        /* align-items: center; */
+       
+        justify-items: center;
+        /* place-items: center; */
+        align-items: center;
+        gap: 10px;
     }
     .curriculam-box-3{
 
         grid-column: span 2;
     }
+    .icone-bar{
+        display: none;
+    }
+    .combo-box-left{
+        display: none;
+    }
+   
+     .combo-box-right{
+       max-width:600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items:center;
+        gap:5px;
+    }
+    .combo-double{
+        background-color: rgb(255, 255, 255);
+        border-radius: 9px;
+        justify-items: center;
+        align-items: center;
+        min-width: 300px;
+        /* gap: 20px; */
+    }
+    .combo-double img{
+        border-radius: 9px 9px 0 0;
+        max-width: 100%;
+    }
+    .combo-double h4{
+        font-size: 0.6rem;
+        font-weight: 600;
+        align-items: center;
+        padding: 10px;
+    }
+
 
 }
