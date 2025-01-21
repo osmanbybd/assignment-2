@@ -43,9 +43,24 @@ body{
 }
 #bg-color-3{
     background-color: rgb(17, 17, 17);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: none;
+    padding: 10px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
     
+    border-radius: 12px;
+    border: none;
+    padding: 10px 40px;
 }
 .view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -293,6 +308,8 @@ main{
     
     color: rgb(102, 102, 102);
 }
+
+
 .combo-box{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -494,19 +511,26 @@ footer{
     .curriculam{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-        gap: 10px;
+        /* gap: 10px; */
     }
 
     .icone-bar{
         display: none;
     }
+    .combo-box{
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+     }
+
 
     .combo-box-left{
         display: none;
     }
    
      .combo-box-right{
-       max-width:600px;
+       max-width:400px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
@@ -518,7 +542,7 @@ footer{
         border-radius: 9px;
         justify-items: center;
         align-items: center;
-        min-width: 200px;
+        max-width: 200px;
         /* gap: 20px; */
     }
     .combo-double img{
@@ -564,7 +588,26 @@ footer{
     }
     #bg-color-3{
         display: block;
-        
+    
+    }
+    .view{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .mini-bar{
+        font-size: 0.50rem;
+        font-weight: 400;
+        font-family: Raleway;
+        color: rgb(255, 255, 255);
+        padding: 5px 8px;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(60, 216, 232);
+        position: relative;
+        left: 19px;
+        top: -18px;
+    
     }
    
 
@@ -627,7 +670,7 @@ footer{
     .curriculam{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
+    
         justify-items: center;
         /* place-items: center; */
         align-items: center;
@@ -640,6 +683,12 @@ footer{
     .icone-bar{
         display: none;
     }
+    .combo-box{
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+     }
     .combo-box-left{
         display: none;
     }
